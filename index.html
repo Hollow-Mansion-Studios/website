@@ -7,30 +7,110 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="hero">
-    <h1>Hollow Mansion Studios</h1>
-    <p>Currently developing a roguelite</p>
+  <header class="hero" id="top">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <p class="eyebrow">Official Studio Website</p>
+      <h1>Hollow Mansion Studios</h1>
+      <p class="hero-subtitle">
+        Currently developing a dark fantasy action roguelite.
+      </p>
+    </div>
   </header>
 
-  <main class="content">
-    <section>
+  <nav class="top-nav" aria-label="Main navigation">
+    <a href="#about" class="nav-button">About</a>
+    <a href="#products" class="nav-button">Products</a>
+    <a href="#gallery" class="nav-button">Gallery</a>
+    <a href="#contact" class="nav-button">Contact</a>
+  </nav>
+
+  <main class="page-shell">
+    <section class="panel" id="about">
       <h2>About</h2>
-      <p>Welcome to Hollow Mansion Studios. This is the official website for our projects and updates.</p>
-    </section>
-
-    <section>
-      <h2>Current Project</h2>
-      <p>We are currently developing a fantasy action roguelite.</p>
-    </section>
-
-    <section>
-      <h2>Links</h2>
       <p>
-        YouTube |
-        Discord |
-        Steam
+        Hollow Mansion Studios is an independent game studio focused on
+        creating atmospheric fantasy experiences with a dark visual identity,
+        strong worldbuilding, and action-driven gameplay.
+      </p>
+      <p>
+        This website will be used to share studio updates, project information,
+        screenshots, and future releases.
       </p>
     </section>
+
+    <section class="panel" id="products">
+      <h2>Products</h2>
+      <div class="product-card">
+        <h3>Current Project</h3>
+        <p>
+          We are currently building a dark fantasy action roguelite.
+        </p>
+        <p>
+          This project focuses on fast combat, replayability, progression,
+          and a strong visual atmosphere.
+        </p>
+      </div>
+    </section>
+
+    <section class="panel" id="gallery">
+      <h2>Gallery</h2>
+      <p class="section-intro">
+        Placeholder gallery for screenshots, banners, concept art, or future promotional images.
+      </p>
+
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <div class="gallery-image">Screenshot Slot 1</div>
+          <p>Gameplay screenshot or banner art.</p>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-image">Screenshot Slot 2</div>
+          <p>Environment, UI, or combat preview.</p>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-image">Screenshot Slot 3</div>
+          <p>Character, enemy, or visual feature.</p>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-image">Screenshot Slot 4</div>
+          <p>Another future project image slot.</p>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-image">Screenshot Slot 5</div>
+          <p>Concept art or worldbuilding image.</p>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-image">Screenshot Slot 6</div>
+          <p>Promotional or website showcase art.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="contact">
+      <h2>Contact</h2>
+      <p>
+        Contact details and social links can go here once you are ready.
+      </p>
+
+      <div class="contact-links">
+        <a href="#">YouTube</a>
+        <a href="#">Steam</a>
+        <a href="#">Discord</a>
+        <a href="#">Email</a>
+      </div>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <p>© Hollow Mansion Studios</p>
+    <a href="#top">Back to top</a>
+  </footer>
 </body>
 </html>
